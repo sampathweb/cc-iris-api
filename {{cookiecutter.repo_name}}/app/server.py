@@ -10,7 +10,7 @@ from tornado.options import options
 
 from sklearn.externals import joblib
 
-from app.settings import MODEL_DIR, AUTH_KEY, AUTH_SECRET
+from app.settings import MODEL_DIR
 from app.handler import IndexHandler, IrisPredictionHandler
 
 

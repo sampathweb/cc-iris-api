@@ -26,7 +26,7 @@ python run.py
 ### Test App
 
 
-1. Open Browser:  (http://localhost:9000)
+1. Open Browser:  [http://localhost:9000](http://localhost:9000)
 
 2. Command Line:
 
@@ -44,6 +44,7 @@ Api works!
 
 
 ```
+# These git Steps are Optional for Pydata Tutorial.
 git init
 git add --all
 git commit -m "first commit"
@@ -117,11 +118,13 @@ sudo supervisorctl reload
 
 ### Test the App
 
-1. Open Browser:  http://<AWS IP> (App is Live!)
+1. Open Browser:  `http://<AWS IP>` (App is Live!)
 
-2. Test API:
+2. Test in Command Line (Optional):
 
+```
 curl -i http://<aws ip address>/api/iris/predict -X POST -d '{ "sepal_length": 2, "sepal_width": 5, "petal_length": 3, "petal_width": 4}'
+```
 
 Congratulations you have deployed your App
 

@@ -1,6 +1,6 @@
-# Cookiecutter Starter Template to build and deploy Machine Learning model as Flask App
+# Cookiecutter Starter Template to build and deploy Machine Learning model as API Micro Servies
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science and deploy the model as flask app_
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data science and deploy the model_
 
 
 ### Requirements to use the cookiecutter template:
@@ -12,7 +12,7 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/sampathweb/cc-api-app
+    cookiecutter https://github.com/sampathweb/cc-iris-api
 
 ### Credits:
 ------
